@@ -1,0 +1,79 @@
+// variables, colores, texto..
+$red: #CA1551;
+$blue : #345995;
+$yellow: #EAC435;
+$dark : #323232;
+$white: #FFF;
+
+.goblin-one-regular {
+    font-family: "Goblin One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+// General
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Goblin One';
+}
+
+
+body{
+    background-color: $white;
+}
+
+// HEADER ( hacerlo responsive )
+header {
+    background-color: $red;
+    color: $white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // parte izquierda del header ( logo y título )
+    .logoContainer{
+        width: 5%;
+        height: 5%;
+        margin-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        display: flex;
+        flex-direction: row;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-left: 5%;
+            margin-top: 3%;
+        }      
+    }
+    // parte derecha del header ( enlaces mas y login )
+    .navegador {
+        width: 20%;
+        height: 20%;
+        margin-right: 20xp;
+        
+        display: flex;
+        justify-content: space-evenly;
+
+        a{
+            color: $white;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+    }
+}
+
+main{
+    
+}

@@ -1,0 +1,56 @@
+.goblin-one-regular {
+  font-family: "Goblin One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Goblin One";
+}
+
+body {
+  background-color: #FFF;
+}
+
+header {
+  background-color: #CA1551;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logoContainer {
+  width: 5%;
+  height: 5%;
+  margin-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+}
+header .logoContainer img {
+  width: 100%;
+  height: 100%;
+}
+header .logoContainer h1 {
+  font-size: 2rem;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+header .navegador {
+  width: 20%;
+  height: 20%;
+  margin-right: 20xp;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .navegador a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

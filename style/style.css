@@ -53,4 +53,8 @@ header .navegador a {
   color: #FFF;
   text-decoration: none;
   font-size: 2rem;
+}
+
+main {
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

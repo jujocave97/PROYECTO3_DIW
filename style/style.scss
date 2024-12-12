@@ -74,6 +74,152 @@ header {
     }
 }
 
+// main y enlaces hacia la pg de marvel y dc
 main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
+    #dc{
+        background-image: url("./../img/dcbackground.png");
+    }
+
+    #marvel{
+        background-image: url("./../img/marvelbackground.png");
+    }
+
+    .selector{
+        width: 100%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .enlaceDC{
+            width: 50%;
+            margin-top: 2%;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 60%;
+                    width: 30%;
+                    margin-left: 20%;
+                }
+            }
+            
+        }
+    
+        .enlaceMarvel{
+            width: 50%;
+            margin-top: 2%;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 50%;
+                    width: 60%;
+                    margin-left: 20%;
+                }
+            }
+            
+        }
+    }
+    
+}
+
+// articulo y heroe del dia
+
+.articleIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+        color: $blue;
+        margin-top: 2%;
+    }
+
+    .infoHeroeDia{
+        background-color: $blue;
+       //border-radius: 10%;
+        width: 60%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        img{
+            height: 50%;
+            width: 30%;
+            margin: 2%;
+        }
+
+        .contenidoHeroeDia {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+
+            div{
+                margin-top: -2%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-content: center;
+
+                text-align: center;
+                color: $yellow;
+                font-size: 2rem;
+            }
+
+            p {
+                padding-left: 1%;
+                padding-right: 2%;
+
+                text-align: center;
+                color: $yellow;
+            }
+
+            button{ 
+                margin-bottom: -5%;
+                margin-left: 20rem;
+                width: 10rem;
+
+                text-align: center;
+                
+                color: $yellow;
+                background-color: $red;
+            }
+        }
+    }
+}
+
+
+// FOOTER
+footer {
+    height:5rem ;
+    background-color: $red;
+    margin-top: 3%;
+    padding-top: 1.5%;
+    padding-left: 45%;
+    padding-right: 1%;
+
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: center;
+
+    color: $white;
+
+    div {
+        img {
+            height: 2rem;
+        }
+    }
 }

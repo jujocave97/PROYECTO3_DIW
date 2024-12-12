@@ -56,5 +56,120 @@ header .navegador a {
 }
 
 main {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+}
+main #dc {
+  background-image: url("./../img/dcbackground.png");
+}
+main #marvel {
+  background-image: url("./../img/marvelbackground.png");
+}
+main .selector {
+  width: 100%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .selector .enlaceDC {
+  width: 50%;
+  margin-top: 2%;
+}
+main .selector .enlaceDC a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .selector .enlaceDC a img {
+  height: 60%;
+  width: 30%;
+  margin-left: 20%;
+}
+main .selector .enlaceMarvel {
+  width: 50%;
+  margin-top: 2%;
+}
+main .selector .enlaceMarvel a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .selector .enlaceMarvel a img {
+  height: 50%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.articleIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.articleIndex h2 {
+  color: #345995;
+  margin-top: 2%;
+}
+.articleIndex .infoHeroeDia {
+  background-color: #345995;
+  width: 60%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.articleIndex .infoHeroeDia img {
+  height: 50%;
+  width: 30%;
+  margin: 2%;
+}
+.articleIndex .infoHeroeDia .contenidoHeroeDia {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.articleIndex .infoHeroeDia .contenidoHeroeDia div {
+  margin-top: -2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  color: #EAC435;
+  font-size: 2rem;
+}
+.articleIndex .infoHeroeDia .contenidoHeroeDia p {
+  padding-left: 1%;
+  padding-right: 2%;
+  text-align: center;
+  color: #EAC435;
+}
+.articleIndex .infoHeroeDia .contenidoHeroeDia button {
+  margin-bottom: -5%;
+  margin-left: 20rem;
+  width: 10rem;
+  text-align: center;
+  color: #EAC435;
+  background-color: #CA1551;
+}
+
+footer {
+  height: 5rem;
+  background-color: #CA1551;
+  margin-top: 3%;
+  padding-top: 1.5%;
+  padding-left: 45%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  color: #FFF;
+}
+footer div img {
+  height: 2rem;
 }/*# sourceMappingURL=style.css.map */

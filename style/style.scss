@@ -377,3 +377,35 @@ main{
         width: 15%;
     }
 }
+
+
+// LISTADO DE SUPERHEROES
+
+.buscadorFranquiciaContainer {
+    background-color: $blue;
+    color: $white;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        height: 90%;
+        width: 20%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        input {
+            border: 1px solid $red;
+            border-radius: 5px;
+        }
+    }
+}
+
+

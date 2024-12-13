@@ -236,6 +236,16 @@ main .selector .enlaceMarvel a img {
 .registroFormulario input {
   margin-bottom: 2%;
 }
+.registroFormulario .terminos {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.registroFormulario .terminos input {
+  margin-right: 8px;
+}
 .registroFormulario button {
   margin-top: 5%;
   background-color: #CA1551;

@@ -297,6 +297,18 @@ main{
         margin-bottom: 2%;
     }
 
+    .terminos {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 2%;
+        margin-bottom: 1%;
+
+        input {
+            margin-right: 8px;
+        }
+    }
+
     button {
         margin-top: 5%;
         background-color: $red;

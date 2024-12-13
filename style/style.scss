@@ -74,6 +74,29 @@ header {
     }
 }
 
+// FOOTER
+footer {
+    height:5rem ;
+    background-color: $red;
+    margin-top: 3%;
+    padding-top: 1.5%;
+    padding-left: 45%;
+    padding-right: 1%;
+
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: center;
+
+    color: $white;
+
+    div {
+        img {
+            height: 2rem;
+        }
+    }
+}
+
 // main y enlaces hacia la pg de marvel y dc
 main{
     display: flex;
@@ -200,26 +223,42 @@ main{
     }
 }
 
+// INICIO DE SESION
+.divFormulario {
+    height: 40.1rem;
+    background-image: url("./../img/jeffBackground.jpg");
+    img {
+        height: 100%;
+    }
+}
 
-// FOOTER
-footer {
-    height:5rem ;
-    background-color: $red;
-    margin-top: 3%;
-    padding-top: 1.5%;
-    padding-left: 45%;
-    padding-right: 1%;
+
+.inicioSesionFormulario {
+    background-color: $blue;
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 30%;
+    height: 100%;
+    color : $white;
 
     display: flex;
-    justify-content:space-between;
-    flex-direction: row;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
-    color: $white;
+    .labelInicioSesion{
+        margin-top: 2%;
 
-    div {
-        img {
-            height: 2rem;
-        }
+    }
+
+    input {
+        margin-top: 2%;
+    }
+
+    button {
+        margin-bottom: 2%;
+        background-color: $red;
+        color: $yellow;
     }
 }

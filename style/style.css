@@ -55,6 +55,23 @@ header .navegador a {
   font-size: 2rem;
 }
 
+footer {
+  height: 5rem;
+  background-color: #CA1551;
+  margin-top: 3%;
+  padding-top: 1.5%;
+  padding-left: 45%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  color: #FFF;
+}
+footer div img {
+  height: 2rem;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -157,19 +174,35 @@ main .selector .enlaceMarvel a img {
   background-color: #CA1551;
 }
 
-footer {
-  height: 5rem;
-  background-color: #CA1551;
-  margin-top: 3%;
-  padding-top: 1.5%;
-  padding-left: 45%;
-  padding-right: 1%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-content: center;
-  color: #FFF;
+.divFormulario {
+  height: 40.1rem;
+  background-image: url("./../img/jeffBackground.jpg");
 }
-footer div img {
-  height: 2rem;
+.divFormulario img {
+  height: 100%;
+}
+
+.inicioSesionFormulario {
+  background-color: #345995;
+  margin-top: 2%;
+  margin-left: 35%;
+  width: 30%;
+  height: 100%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.inicioSesionFormulario .labelInicioSesion {
+  margin-top: 2%;
+}
+.inicioSesionFormulario input {
+  margin-top: 2%;
+}
+.inicioSesionFormulario button {
+  margin-bottom: 2%;
+  background-color: #CA1551;
+  color: #EAC435;
 }/*# sourceMappingURL=style.css.map */

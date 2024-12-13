@@ -205,4 +205,39 @@ main .selector .enlaceMarvel a img {
   margin-bottom: 2%;
   background-color: #CA1551;
   color: #EAC435;
+}
+
+.divRegistro {
+  height: 40.1rem;
+  background-image: url("./../img/moon.jpg");
+}
+.divRegistro img {
+  height: 100%;
+}
+
+.registroFormulario {
+  background-color: #345995;
+  margin-top: 2%;
+  width: 35%;
+  height: 100%;
+  margin-left: 30%;
+  color: #FFF;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.registroFormulario .labelRegistro {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.registroFormulario input {
+  margin-bottom: 2%;
+}
+.registroFormulario button {
+  margin-top: 5%;
+  background-color: #CA1551;
+  color: #EAC435;
 }/*# sourceMappingURL=style.css.map */

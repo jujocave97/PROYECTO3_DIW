@@ -1,24 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superhero Collection</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Batman</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    </head>
 <body>
     <header>
-       <img src="./img/logo.png" alt="Logo de Superhero Collection" />
-       <h1>SUPERHERO COLLECTION</h1> 
-       <nav>
+        <div class="logoContainer">
+            <img src="./img/logo.png" alt="Logo de Superhero Collection" />
+            <h1>SUPERHERO COLLECTION</h1> 
+        </div>
+       <nav class="navegador">
             <a href="#">MAS</a>
             <a href="#">LOGIN</a>
        </nav>
     </header>
     <!-- Elementos del superheroe -->
+    <article class="articuloHeroeTodaSuInformacion">
+        <div class="infoPrincipalHeroe">
+            <img src="./img/BatmanImage.png" alt="batman" />
+            <div class="textoPrincipal">
+                <h1>BATMAN</h1>
+                <h2>El caballero oscuro</h2>
+                <p>Nombre real: Bruce Wayne</p>
+                <p>Primera aparición: Detective comics #27</p>
+            </div>
+        </div>
+        <div class="descripcion">
+            Bruce Wayne es un filántropo, multimillonario y el presidente corporativo de Empresas Wayne. En secreto, él encarna a Batman, el héroe enmascarado que lucha contra el mundo del hampa y del crimen organizado en Gotham City combatiendo a peligrosos criminales que amenazan la paz de sus conciudadanos. Bruce juró ante la tumba de sus fallecidos padres, quienes murieron en un atraco a mano armada, combatir la delincuencia en todos sus aspectos.
+        </div>
+        <div class="contenedorInformacionHeroe">
+            <h1>HABILIDADES</h1>
+            <p>Coeficiente Intelectual Superior (200)</p>
+            <p>Detective Experto</p>
+            <p>Escapista Experto</p>
+            <p>Condición física extraordinaria</p>
+            <p>Experto en Artes Marciales Mixtas</p>
+            <p>Acceso a equipos de alta tecnología</p>
+            <p>Memoria fotográfica</p>
+            <p>extraordinaria manejo de armamento</p>
+            <p>Gran inventor</p>
+        </div>
+        <div class="contenedorInformacionHeroe">
+            <h1>COMICS DESTACADOS</h1>
+            <p>Batman: El regreso del caballero oscuro</p>
+            <p>Batman: Año uno</p>
+            <p>Batman: La broma asesina</p>
+            <p>Batman: El largo Halloween</p>
+            <p>Batman: El tribunal de los Búhos</p>
+        </div>
+        <h1 class="h1Perfil">Galería de Imágenes</h1>
+        <div class="favoritosContenedor">
+            <button>izquierda</button>
+            <img src="./img/batman-action.png" alt="Batman">
+            <button>derecha</button>
+        </div>
+    </article>
     <footer>
-        <img src="" alt="instagram" />
-        <img src="" alt="figma" />
-        <img src="" alt="github" />
+        <div>
+            <img src="./img/instagram.png" alt="instagram" />
+            <img src="./img/github.png" alt="github" />
+            <img src="./img/figma.png" alt="figma" />
+        </div>
+    
         <p>@ 2023 All Rights Reserved</p>
     </footer>
 </body>

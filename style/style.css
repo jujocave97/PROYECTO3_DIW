@@ -125,12 +125,20 @@ main .selector .enlaceMarvel a img {
   justify-content: space-around;
   align-items: center;
 }
+.articleIndex button {
+  background-color: #CA1551;
+  color: #EAC435;
+  margin-top: 5%;
+  margin-bottom: -2%;
+  margin-left: 55%;
+}
 .articleIndex h2 {
   color: #345995;
   margin-top: 2%;
 }
 .articleIndex .infoHeroeDia {
   background-color: #345995;
+  border-radius: 5px;
   width: 60%;
   margin-top: 2%;
   display: flex;

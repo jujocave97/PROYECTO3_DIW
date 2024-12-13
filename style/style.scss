@@ -161,6 +161,15 @@ main{
     justify-content: space-around;
     align-items: center;
 
+    button { // boton de favoritos : EDITAR
+        background-color: $red;
+        color: $yellow;
+        
+        margin-top: 5%;
+        margin-bottom: -2%;
+        margin-left: 55%;
+    }
+
     h2{
         color: $blue;
         margin-top: 2%;
@@ -168,7 +177,7 @@ main{
 
     .infoHeroeDia{
         background-color: $blue;
-       //border-radius: 10%;
+        border-radius: 5px;
         width: 60%;
         margin-top: 2%;
         display: flex;
@@ -209,7 +218,7 @@ main{
                 color: $yellow;
             }
 
-            button{ 
+            button{   // boton de ver mas : EDITAR
                 margin-bottom: -5%;
                 margin-left: 20rem;
                 width: 10rem;
@@ -367,7 +376,6 @@ main{
     }
 }
 
-
 .favoritosContenedor {
     margin-top: 2%;
     display: flex;
@@ -408,4 +416,5 @@ main{
     }
 }
 
+// reciclo el articleIndex del propio index.html para mostrar las tarjetas
 

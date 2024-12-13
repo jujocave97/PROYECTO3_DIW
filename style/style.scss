@@ -317,3 +317,63 @@ main{
     
 }
 
+
+// PERFIL
+
+.h1Perfil{
+    text-align: center;
+    color: $white;
+    background-color: $blue;
+}
+
+.perfilContenedor {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    img {
+        height: 15%;
+        width: 15%;
+        border-radius: 5%;
+
+        margin-left: 15%;
+    }
+
+    .informacionPerfil{
+        background-color: $blue;
+        text-align: center;
+        width: 30%;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+
+            color: $yellow;
+
+            margin-top: 2%;
+            margin-right: 2%;
+            padding: 2%;
+        }
+
+        button {
+            background-color: $red;
+            color: $yellow;
+            margin-top: 5%;
+
+        }
+    }
+}
+
+
+.favoritosContenedor {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 30%;
+        width: 15%;
+    }
+}

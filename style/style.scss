@@ -26,7 +26,7 @@ body{
     background-color: $white;
 }
 
-// HEADER ( hacerlo responsive )
+// HEADER
 header {
     background-color: $red;
     color: $white;
@@ -161,15 +161,6 @@ main{
     justify-content: space-around;
     align-items: center;
 
-    button { // boton de favoritos : EDITAR
-        background-color: $red;
-        color: $yellow;
-        
-        margin-top: 5%;
-        margin-bottom: -2%;
-        margin-left: 55%;
-    }
-
     h2{
         color: $blue;
         margin-top: 2%;
@@ -218,16 +209,20 @@ main{
                 color: $yellow;
             }
 
-            button{   // boton de ver mas : EDITAR
-                margin-bottom: -5%;
-                margin-left: 20rem;
-                width: 10rem;
+            .botones{
+                display: flex;
+                flex-direction: row;
 
-                text-align: center;
-                
-                color: $yellow;
-                background-color: $red;
+                button{  
+                    text-align: center;
+                    background-color: $red;
+                    color: $yellow;
+                    width: 15%;
+                    height: 40%;
+                    border-radius: 5px;
+                }
             }
+            
         }
     }
 }
@@ -268,6 +263,8 @@ main{
     button {
         margin-bottom: 2%;
         background-color: $red;
+        width: 30%;
+        border-radius: 5px;
         color: $yellow;
     }
 }
@@ -315,11 +312,14 @@ main{
 
         input {
             margin-right: 8px;
+            border-radius: 5px;
         }
     }
 
     button {
         margin-top: 5%;
+        width: 30%;
+        border-radius: 5px;
         background-color: $red;
         color: $yellow;
     }
@@ -371,7 +371,8 @@ main{
             background-color: $red;
             color: $yellow;
             margin-top: 5%;
-
+            border-radius: 5px;
+            width: 20%;
         }
     }
 }
@@ -379,11 +380,19 @@ main{
 .favoritosContenedor {
     margin-top: 2%;
     display: flex;
-    justify-content: center;
-    img{
-        height: 30%;
-        width: 15%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        background-color: $white;
+        
+        img{
+            width: 50%;
+            height: 50%;
+        }
     }
+    
 }
 
 
@@ -400,20 +409,27 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
+    
     div {
         height: 90%;
         width: 20%;
 
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 10%;
+            width: 10%;
+        }
 
         input {
             border: 1px solid $red;
             border-radius: 5px;
+
+            height: 10%;
         }
-        // editar la imagen de la lupita | poner como boton
     }
 }
 

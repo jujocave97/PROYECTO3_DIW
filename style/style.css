@@ -125,13 +125,6 @@ main .selector .enlaceMarvel a img {
   justify-content: space-around;
   align-items: center;
 }
-.articleIndex button {
-  background-color: #CA1551;
-  color: #EAC435;
-  margin-top: 5%;
-  margin-bottom: -2%;
-  margin-left: 55%;
-}
 .articleIndex h2 {
   color: #345995;
   margin-top: 2%;
@@ -173,13 +166,17 @@ main .selector .enlaceMarvel a img {
   text-align: center;
   color: #EAC435;
 }
-.articleIndex .infoHeroeDia .contenidoHeroeDia button {
-  margin-bottom: -5%;
-  margin-left: 20rem;
-  width: 10rem;
+.articleIndex .infoHeroeDia .contenidoHeroeDia .botones {
+  display: flex;
+  flex-direction: row;
+}
+.articleIndex .infoHeroeDia .contenidoHeroeDia .botones button {
   text-align: center;
-  color: #EAC435;
   background-color: #CA1551;
+  color: #EAC435;
+  width: 15%;
+  height: 40%;
+  border-radius: 5px;
 }
 
 .divFormulario {
@@ -212,6 +209,8 @@ main .selector .enlaceMarvel a img {
 .inicioSesionFormulario button {
   margin-bottom: 2%;
   background-color: #CA1551;
+  width: 30%;
+  border-radius: 5px;
   color: #EAC435;
 }
 
@@ -253,9 +252,12 @@ main .selector .enlaceMarvel a img {
 }
 .registroFormulario .terminos input {
   margin-right: 8px;
+  border-radius: 5px;
 }
 .registroFormulario button {
   margin-top: 5%;
+  width: 30%;
+  border-radius: 5px;
   background-color: #CA1551;
   color: #EAC435;
 }
@@ -297,16 +299,23 @@ main .selector .enlaceMarvel a img {
   background-color: #CA1551;
   color: #EAC435;
   margin-top: 5%;
+  border-radius: 5px;
+  width: 20%;
 }
 
 .favoritosContenedor {
   margin-top: 2%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-.favoritosContenedor img {
-  height: 30%;
-  width: 15%;
+.favoritosContenedor button {
+  background-color: #FFF;
+}
+.favoritosContenedor button img {
+  width: 50%;
+  height: 50%;
 }
 
 .buscadorFranquiciaContainer {
@@ -324,11 +333,17 @@ main .selector .enlaceMarvel a img {
   width: 20%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+.buscadorFranquiciaContainer div img {
+  height: 10%;
+  width: 10%;
 }
 .buscadorFranquiciaContainer div input {
   border: 1px solid #CA1551;
   border-radius: 5px;
+  height: 10%;
 }
 
 .articuloHeroeTodaSuInformacion {

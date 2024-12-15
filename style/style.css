@@ -431,4 +431,45 @@ main .selector .enlaceMarvel a img {
   background-color: #345995;
   height: 100%;
   width: 100%;
+}
+
+.contenedorAPI {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contenedorAPI .textoYLogo h3 {
+  background-color: #345995;
+  color: #FFF;
+  border-radius: 5px;
+}
+.contenedorAPI .textoYLogo img {
+  height: 100%;
+  width: 100%;
+}
+.contenedorAPI .api {
+  background-color: #345995;
+  border-radius: 5px;
+  width: 50%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedorAPI .api button {
+  background-color: #345995;
+  margin-bottom: -10%;
+  border-radius: 5px;
+}
+.contenedorAPI .api button img {
+  height: 70%;
+  width: 80%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superhero Collection</title>
-    <link rel="stylesheet" type="text/css" href="./style/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    </head>
 <body>
     <header>
-       <img src="./img/logo.png" alt="Logo de Superhero Collection" />
-       <h1>SUPERHERO COLLECTION</h1> 
-       <nav>
+        <div class="logoContainer">
+            <img src="./img/logo.png" alt="Logo de Superhero Collection" />
+            <h1>SUPERHERO COLLECTION</h1> 
+        </div>
+       <nav class="navegador">
             <a href="#">MAS</a>
             <a href="#">LOGIN</a>
        </nav>
     </header>
     <!-- Elementos de la api -->
+    <div class="segundoMenu">
+        <h2><a href="">Contáctanos</a></h2>
+        <h2><a href="">API</a></h2>
+    </div>
+    <div class="contenedorAPI">
+        <div class="textoYLogo">
+            <h3>Localiza a todos los Superhéroes</h3>
+            <img src="./img/logo.png" alt="logo" />
+        </div>
+        <div class="api">
+             <h3>GET https://superherocollection/api/superhero</h3>
+             <p>{
+                “id”: “1”,
+                “name”: “batman”,
+                “alias”: “el caballero oscuro”,
+                “description”:”Bruce Wayne es un filántropo, multimillonario y el presidente corporativo de Empresas Wayne. En secreto, él encarna a Batman, el héroe enmascarado que lucha contra el mundo del hampa y del crimen organizado en Gotham City combatiendo a peligrosos criminales que amenazan la paz ...”,
+                “habilities”: “Coeficiente Intelectial Superior (200)Detective ExpertoEscapista ExpertoCondicion Fisica Extraordinaria ...”,
+                “images”:”https://batmanimage1.com”
+            ...
+            }</p>
+            <button><img src="./img/verMas.png" alt="ver mas"></button>
+        </div>
+    </div>
     <footer>
-        <img src="" alt="instagram" />
-        <img src="" alt="figma" />
-        <img src="" alt="github" />
+        <div>
+            <img src="./img/instagram.png" alt="instagram" />
+            <img src="./img/github.png" alt="github" />
+            <img src="./img/figma.png" alt="figma" />
+        </div>
+    
         <p>@ 2023 All Rights Reserved</p>
     </footer>
 </body>

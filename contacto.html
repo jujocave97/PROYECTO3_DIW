@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Superhero Collection</title>
+        <title>Contacto</title>
         <link rel="stylesheet" type="text/css" href="./style/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +21,38 @@
        </nav>
     </header>
     <!-- Elementos del contacto -->
+    <div class="segundoMenu">
+        <h2><a href="">Contáctanos</a></h2>
+        <h2><a href="">API</a></h2>
+    </div>
+    <div class="contenidoContacto">
+        <img src="./img/logo.png" alt="logo">
+        <form action="#" method="post" class="formularioContacto">
+            <h2>Datos de Contacto</h2>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="" required>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="" required></textarea>
+
+            <button type="submit"><img src="./img/enviarContacto.png" alt="enviar"></button>
+        </form>
+
+    </div>
     <footer>
         <div>
             <img src="./img/instagram.png" alt="instagram" />
             <img src="./img/github.png" alt="github" />
             <img src="./img/figma.png" alt="figma" />
         </div>
+    
         <p>@ 2023 All Rights Reserved</p>
     </footer>
 </body>

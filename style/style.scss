@@ -475,10 +475,78 @@ main{
         color: $yellow;
     }
 
-    // .favoritosContenedor {
-        //retocar junto a su div con el mismo nombre en la pg del perfil
-    // }
+    .favoritosContenedor {
+        button {
+            background-color: $blue;
+        }
+
+        margin-bottom: 2%;
+    }
 }
 
 // CONTACTO
+.segundoMenu{
+    background-color: $blue;
+    color: $white;
+    
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+    a{
+        color: $white;
+        text-decoration: none;
+    }
+
+}
+
+.contenidoContacto{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .formularioContacto{
+        background-color: $blue;
+        border-radius: 5px;
+        width: 30%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+        color: $white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        input {
+            border-radius: 5px;
+        }
+        
+        button {
+            width: 30%;
+            height: 20%;
+            img {
+                background-color: $blue;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        
+
+    }
+
+}
 

@@ -424,12 +424,13 @@ main{
 
 .articuloHeroeTodaSuInformacion {
     background-color: $blue;
-    color: $white;
+    color: $yellow;
+    border-radius: 5px;
     
     margin-top: 2%;
     width: 35%;
     height: 100%;
-    margin-left: 30%;
+    margin-left: 35%;
     
 
     display: flex;
@@ -439,9 +440,45 @@ main{
     justify-content: center;
 
     .infoPrincipalHeroe {
+        padding: 2%;
+        font-size: 1rem;
+
+        display: flex;
+        justify-content: row;
         img {
             height: 50%;
             width: 25%;
         }
+
+        .textoPrincipal {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h2 {
+                margin-top: -5%;
+            }
+        }
     }
+
+    .contenedorInformacionHeroe {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 0.8rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .h1Perfil {
+        color: $yellow;
+    }
+
+    // .favoritosContenedor {
+        //retocar junto a su div con el mismo nombre en la pg del perfil
+    // }
 }
+
+// CONTACTO
+

@@ -333,18 +333,44 @@ main .selector .enlaceMarvel a img {
 
 .articuloHeroeTodaSuInformacion {
   background-color: #345995;
-  color: #FFF;
+  color: #EAC435;
+  border-radius: 5px;
   margin-top: 2%;
   width: 35%;
   height: 100%;
-  margin-left: 30%;
+  margin-left: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
+.articuloHeroeTodaSuInformacion .infoPrincipalHeroe {
+  padding: 2%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: row;
+}
 .articuloHeroeTodaSuInformacion .infoPrincipalHeroe img {
   height: 50%;
   width: 25%;
+}
+.articuloHeroeTodaSuInformacion .infoPrincipalHeroe .textoPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.articuloHeroeTodaSuInformacion .infoPrincipalHeroe .textoPrincipal h2 {
+  margin-top: -5%;
+}
+.articuloHeroeTodaSuInformacion .contenedorInformacionHeroe {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.articuloHeroeTodaSuInformacion .h1Perfil {
+  color: #EAC435;
 }/*# sourceMappingURL=style.css.map */

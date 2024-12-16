@@ -45,7 +45,6 @@ header .logoContainer h1 {
 header .navegador {
   width: 20%;
   height: 20%;
-  margin-right: 20xp;
   display: flex;
   justify-content: space-evenly;
 }
@@ -149,6 +148,7 @@ main .selector .enlaceMarvel a img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 .articleIndex .infoHeroeDia .contenidoHeroeDia div {
   margin-top: -2%;
@@ -166,17 +166,23 @@ main .selector .enlaceMarvel a img {
   text-align: center;
   color: #EAC435;
 }
+.articleIndex .infoHeroeDia .contenidoHeroeDia a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #CA1551;
+  color: #EAC435;
+  border-radius: 5px;
+  width: 50%;
+}
 .articleIndex .infoHeroeDia .contenidoHeroeDia .botones {
   display: flex;
   flex-direction: row;
+  width: 50%;
 }
 .articleIndex .infoHeroeDia .contenidoHeroeDia .botones button {
-  text-align: center;
-  background-color: #CA1551;
   color: #EAC435;
-  width: 15%;
-  height: 40%;
-  border-radius: 5px;
+  background-color: #345995;
+  width: 30%;
 }
 
 .divFormulario {
@@ -364,7 +370,7 @@ main .selector .enlaceMarvel a img {
   padding: 2%;
   font-size: 1rem;
   display: flex;
-  justify-content: row;
+  flex-direction: row;
 }
 .articuloHeroeTodaSuInformacion .infoPrincipalHeroe img {
   height: 50%;
@@ -505,4 +511,8 @@ main .selector .enlaceMarvel a img {
 #logo {
   width: 30%;
   height: 30%;
+}
+
+.hoverEnlace:hover {
+  background-color: #EAC435;
 }/*# sourceMappingURL=style.css.map */
